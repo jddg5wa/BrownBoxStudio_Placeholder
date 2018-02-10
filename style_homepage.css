@@ -15,7 +15,8 @@
 
 body {
     background-image: url("assets/background.jpg");
-    background-repeat: repeat 5;
+    background-repeat: repeat;
+    background-size: 400px 400px;
 }
 
 .centered {
