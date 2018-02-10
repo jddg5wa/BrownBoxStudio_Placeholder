@@ -1,0 +1,60 @@
+@font-face {
+    font-family: embossed_background;
+    src: url("assets/fzm-Embossed.Label.ttf");
+}
+
+@font-face {
+    font-family: embossed_overlay;
+    src: url("assets/fzm-Embossed.Text.ttf");
+}
+
+@font-face {
+    font-family: marker;
+    src: url("assets/PermanentMarker.ttf");
+}
+
+body {
+    background-image: url("assets/background.jpg");
+    background-repeat: repeat;
+}
+
+.centered {
+    width: 75%;
+    margin: 0 auto;
+    height: 100%
+}
+
+.countdown {
+    font-family: marker;    
+    text-align: center;
+    mix-blend-mode: multiply;
+}
+
+#countdown_title{
+    font-size: 110pt;
+    margin: 200px auto 0px auto;
+
+    line-height: 90%;
+
+    -ms-transform: rotate(-1deg); 
+    -webkit-transform: rotate(-1deg);
+    transform: rotate(-1deg);  
+}
+
+#countdown_numbers {
+    font-family: embossed_overlay;;    
+    font-size: 20pt;
+    background-color: black;
+    color: white;
+
+    max-width: 75%;
+    margin: 75px auto;
+
+    -ms-transform: rotate(.5deg); 
+    -webkit-transform: rotate(.5deg);
+    transform: rotate(.5deg);
+
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.60);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.60);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.60);
+}
