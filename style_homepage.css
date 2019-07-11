@@ -16,22 +16,21 @@
 body {
     background-image: url("assets/Texture_Chipboard.jpg");
     background-repeat: repeat;
-    background-size: 300px 300px;
+    background-size: 400px 400px;
 }
 
 .centered {
-    width: 100%;
+    width: 100%; 
     margin: 0 auto;
     height: 100%
 }
 
-.countdown {
-    font-family: marker;    
-    text-align: center;
-    mix-blend-mode: multiply;
-}
+#title{
 
-#countdown_title{
+    font-family: marker;   
+    text-align: center;
+    mix-blend-mode: hard-light;
+
     font-size: 110pt;
     margin: 200px auto 0px auto;
 
@@ -40,22 +39,4 @@ body {
     -ms-transform: rotate(-1deg); 
     -webkit-transform: rotate(-1deg);
     transform: rotate(-1deg);  
-}
-
-#countdown_numbers {
-    font-family: embossed_overlay;;    
-    font-size: 20pt;
-    background-color: black;
-    color: white;
-
-    max-width: 75%;
-    margin: 75px auto;
-
-    -ms-transform: rotate(.5deg); 
-    -webkit-transform: rotate(.5deg);
-    transform: rotate(.5deg);
-
-    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.60);
-    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.60);
-    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.60);
 }
